@@ -6,10 +6,10 @@ public class Person {
         Device audioSystem = new AudioSystem("Audio System device", "");
         Device mp3player = new MP3Player("MP3Player device", "MP-8");
         Device dvdPlayer = new DVDPlayer("DVDPlayer device", "DV-09");
-        
+        //
         remoteControl.showAllDevicesInSystem();
         System.out.println();
-
+        //
         AddDevice(remoteControl, digitalReceiver);
         AddDevice(remoteControl, tv);
         AddDevice(remoteControl, audioSystem);
